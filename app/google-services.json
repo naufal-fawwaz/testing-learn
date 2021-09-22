@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "725791283021",
+    "project_id": "android-testing-1",
+    "storage_bucket": "android-testing-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725791283021:android:1e15cc60305bcf9b5d0904",
+        "android_client_info": {
+          "package_name": "com.fall.testing_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725791283021-71dbfamcopdr978nnv83r1b575gjjdae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fall.testing_1",
+            "certificate_hash": "1b11cc0768fe88f7e74fa624667eae48cc29e8e9"
+          }
+        },
+        {
+          "client_id": "725791283021-s33dvpbhmvcrsil2p7k7h22qlu7lgh92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB8trwseyas8bhfeQln-y0OMbkf6G-bcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725791283021-s33dvpbhmvcrsil2p7k7h22qlu7lgh92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
