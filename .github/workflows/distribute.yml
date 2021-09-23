@@ -27,6 +27,11 @@ jobs:
         env:
           FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
           
+      - name: Update faslane and plugin
+        run: 
+          bundle exec fastlane update_fastlane
+          bundle exec fastlane update_plugins
+          
       - name: Distribute app with 🔥 App Distribution 🚀
         run: bundle exec fastlane distribute
         env:
