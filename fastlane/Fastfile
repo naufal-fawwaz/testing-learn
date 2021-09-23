@@ -12,5 +12,5 @@ platform :android do
             groups_file: "FirebaseAppDistributionConfig/groups.txt"
         )
     end
-
+  
 end

@@ -24,11 +24,4 @@ class ValidatorTest {
         val result = Validator.validateInput(amount, desc)
         assertFalse(result)
     }
-
-    @Test
-    fun `input correct email`() {
-        val email = "fawaznaufal23@gmail.com"
-        val result = Validator.isEmailCorrectEmail(email)
-        assertTrue(result)
-    }
 }
